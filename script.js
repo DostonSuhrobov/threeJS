@@ -1,20 +1,2 @@
-const scene = new THREE.Scene();
-const geometry = new THREE.BoxGeometry(1,1,1);
-
-const material = new THREE.MeshBasicMaterial({color: 0xff0000});
-const mesh = new THREE.Mesh(geometry, material);
-scene.add(mesh);
-
-const camera = new THREE.PerspectiveCamera(75);
-scene.add(camera);
-
-const sizes = { 
-    width: 800,
-    height: 600 
-}
-
-const canvas = document.querySelector('.webgl');
-
-const renderer = new THREE.WebGL1Renderer({
-    canvas: canvas 
-    })
+console.log("These are THREE.js modules");
+console.log(THREE);
