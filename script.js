@@ -1,2 +1,3 @@
-console.log("These are THREE.js modules");
-console.log(THREE);
+const scene = new THREE.Scene();
+
+ 
